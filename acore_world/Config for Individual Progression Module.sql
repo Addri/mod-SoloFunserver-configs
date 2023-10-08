@@ -15,7 +15,7 @@ UPDATE `item_template` SET `BuyPrice` = 100000 WHERE `RequiredSkill` = 762 AND `
 UPDATE `item_template` SET `BuyPrice` = 100000 WHERE `RequiredSkill` = 762 AND `RequiredSkillRank` = 300;
 
 
--- Riding Skills
+-- Riding Skills - Adjusted to get riding at 20, fast riding at 40
 UPDATE npc_trainer SET ReqLevel=20 WHERE SpellID=33388;
 UPDATE npc_trainer SET MoneyCost=80000 WHERE SpellID=33388;
 UPDATE npc_trainer SET ReqLevel=40 WHERE SpellID=33391;
