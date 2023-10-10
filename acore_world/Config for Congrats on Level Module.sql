@@ -44,9 +44,10 @@ INSERT INTO `mod_congrats_on_level_items` (`level`, `money`, `spell`, `learn`, `
 (40, 0, 0, 0, 38050, 0, 0, 0),
 -- Allow all classes Mail at level 50
 (50, 0, 750, 1, 0, 0, 0, 0),
--- Gift all Players Spectral Tiger and Rocket Mounts at level 60
+-- Gift all Players Spectral Tigers
 (60, 0, 0, 0, 33224, 33225, 0, 0),
-(60, 0, 0, 0, 49285, 49286, 0, 0),
 -- Gift all Players 4 36 slot bags at level 60
 (60, 0, 0, 0, 23162, 23162, 0, 0),
-(60, 0, 0, 0, 23162, 23162, 0, 0);
+(60, 0, 0, 0, 23162, 23162, 0, 0),
+-- Gift all Players Rocket Mounts at level 70
+(70, 0, 0, 0, 49285, 49286, 0, 0);
