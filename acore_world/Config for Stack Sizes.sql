@@ -23,15 +23,5 @@ UPDATE `item_template` SET `stackable` = 2000 WHERE `entry` = 22529;
 UPDATE `item_template` SET `stackable` = 2000 WHERE `entry` = 22528;
 UPDATE `item_template` SET `stackable` = 2000 WHERE `entry` = 18945;
 
--- Remove Faction Restrictions on all items
-UPDATE `item_template` SET `FlagsExtra` = 0 WHERE `FlagsExtra` = 1;
-UPDATE `item_template` SET `FlagsExtra` = 0 WHERE `FlagsExtra` = 2;
-
--- Remove Class Restrictions on all items
-UPDATE `item_template` SET `AllowableClass` = -1;
-
--- Remove Race Restrictions on all items
-UPDATE `item_template` SET `AllowableRace` = -1;
-
--- Remove Make Mithril Spurs Stackable to 20
+-- Make Mithril Spurs Stackable to 20
 UPDATE `item_template` SET `stackable` = 20 WHERE `entry` = 7969;
