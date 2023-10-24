@@ -49,5 +49,7 @@ INSERT INTO `mod_congrats_on_level_items` (`level`, `money`, `spell`, `learn`, `
 -- Gift all Players 4 36 slot bags at level 60
 (60, 0, 0, 0, 23162, 23162, 0, 0),
 (60, 0, 0, 0, 23162, 23162, 0, 0),
+-- Allow all Classes Path of Frost at 60
+(60, 3714, 1, 0, 0, 0, 0, 0),
 -- Gift all Players Rocket Mounts at level 70
 (70, 0, 0, 0, 49285, 49286, 0, 0);
